@@ -20,8 +20,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                // url: "././mail/contact_me.php",
-                url: "https://formspree.io/aduh_fam@yahoo.com",
+                url: "././mail/contact_me.php",
+                // url: "https://formspree.io/aduh_fam@yahoo.com",
                 type: "POST",
                 data: {
                     name: name,
@@ -29,7 +29,7 @@ $(function() {
                     email: email,
                     message: message
                 },
-                dataType: "json"
+                // dataType: "json"
                 cache: false,
                 success: function() {
                     // Success message
