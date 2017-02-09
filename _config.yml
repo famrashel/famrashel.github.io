@@ -1,7 +1,7 @@
 # Site settings
 title: FAM Rashel
 header-img: img/home-bg.jpg
-email: aduh_fam@yahoo.com
+email: 1234@yahoo.com
 copyright_name: FAM
 description: "Projects, travels, musics, anything else"
 baseurl: ""
@@ -9,7 +9,7 @@ url: "http://famrashel.github.io"
 twitter_username: famrashel
 github_username:  famrashel
 facebook_username:  fam.rashel.scala
-email_username:  aduh_fam@yahoo.com
+email_username:  1234@yahoo.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
