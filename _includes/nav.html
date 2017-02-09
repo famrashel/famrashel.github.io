@@ -26,7 +26,7 @@
 				{% endif %}
                 {% endif %}{% endfor %} -->
                 <li>
-                    <a href="{{ site.baseurl }}profile">Profile</a>
+                    <a href="{{ profile | prepend: site.baseurl }">Profile</a>
                 </li>
                 <li>
                     <a href="{{ site.baseurl }}project">Project</a>
