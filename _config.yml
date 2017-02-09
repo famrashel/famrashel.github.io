@@ -5,7 +5,7 @@ email: aduh_fam@yahoo.com
 copyright_name: FAM
 description: "Projects, travels, musics, anything else"
 baseurl: ""
-url: "famrashel.github.io"
+url: ""
 twitter_username: famrashel
 github_username:  famrashel
 facebook_username:  fam.rashel.scala
@@ -23,7 +23,3 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
-
-# Collections
-# collections:
-#   projects:
