@@ -27,4 +27,5 @@ gems: [jekyll-paginate, jekyll-feed]
 # Collections
 collections:
   projects:
+    output: true
 
