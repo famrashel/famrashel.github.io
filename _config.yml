@@ -24,3 +24,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
 
+# Collections
+collections:
+  projects:
+    output: true
