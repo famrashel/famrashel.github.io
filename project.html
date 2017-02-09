@@ -5,7 +5,7 @@ description: "Past and current projects"
 header-img: "img/home-bg.jpg"
 ---
 
-{% for project in site.projects %}
+<!-- {% for project in site.projects %}
 <div class="post-preview">
     <a href="{{ project.url | prepend: site.baseurl }}">
         <h3 class="post-subtitle">{{ project.title }}</h3>
@@ -15,4 +15,17 @@ header-img: "img/home-bg.jpg"
     {% endif %}
 </div>
 <hr>
-{% endfor %}
+{% endfor %} -->
+
+{% for project in site.projects %}
+<div class="post-preview">
+    <a href="{{ project.url | prepend: site.baseurl }}">
+        <h3 class="post-subtitle">{{ project.title }}</h3>
+    </a>
+    {% if project.description %}
+    <p class="post-meta">{{ project.description }}</p>
+    {% endif %}
+    {{project.content}}
+</div>
+<hr>
+{% endfor %} -->
