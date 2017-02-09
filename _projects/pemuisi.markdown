@@ -1,4 +1,5 @@
 ---
+layout: project
 title: Pemuisi
 description: A constraint satisfaction-based generator of topical Indonesian poetry.
 ---
