@@ -1,7 +1,0 @@
----
-layout: projects
-title: Indonesian treebank
-description: An attempt to create Indonesian treebank corpus.
----
-
-An attempt to create Indonesian treebank corpus.
