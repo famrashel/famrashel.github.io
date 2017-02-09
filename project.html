@@ -5,4 +5,10 @@ description: "Past and current projects"
 header-img: "img/home-bg.jpg"
 ---
 
-<p>Coming soon. Working on it!</p>
+{% for project in site.projects %}
+<div class="post-preview">
+    <h3 class="post-subtitle">{{ project.title }}</h3>
+    <p class="post-meta">project.description</p>
+</div>
+<hr>
+{% endfor %}
