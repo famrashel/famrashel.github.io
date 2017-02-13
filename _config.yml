@@ -18,7 +18,7 @@ email_username:  1234@yahoo.com
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+# permalink: pretty
 paginate: 5
 paginate_path: "/news/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
