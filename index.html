@@ -3,34 +3,16 @@ layout: page
 description: "Projects, music, anything else"
 ---
 
-{% for post in paginator.posts %}
+<h2 class="section-heading">Favorites</h2>
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <h3 class="post-subtitle"><a href="https://famrashel.github.io/projects/idn_postag_corpus.html">
+    Indonesian POS Tagger</a></h3>
+    <p class="post-meta">Corpus of text documents that contain sentences in Indonesian manually annotated by humans.</p>
 </div>
 <hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<div class="post-preview">
+    <h3 class="post-subtitle"><a href="https://famrashel.github.io/projects/idn_postagger.html">
+    Indonesian POS annotated corpus</a></h3>
+    <p class="post-meta">Rule-based part-of-speech tagger for Indonesian.</p>
+</div>
+<hr>
