@@ -5,3 +5,5 @@ description: Corpus of text documents that contain sentences in Indonesian manua
 ---
 
 Corpus of text documents that contain sentences in Indonesian manually annotated by humans.
+
+Link under github: <https://github.com/famrashel/idn-tagged-corpus.git>
