@@ -16,14 +16,14 @@ The main purpose of this library is to construct analogical grids from a given s
 Each word form is represented as a vector with
 the number of occurrences of all the characters in the alphabet.
 
-![Word forms to analogical grids](/famrashel.github.io/img/projects/word_to_grid.jpg)
-<img src="{{ site.baseurl }}/img/projects/word_to_grid.jpg" alt="word_forms_to_nlggrids">
+<!-- ![Word forms to analogical grids](/famrashel.github.io/img/projects/word_to_grid.jpg)
+<img src="{{ site.baseurl }}/img/projects/word_to_grid.jpg" alt="word_forms_to_nlggrids"> -->
 
 #### Morphological features → paradigm tables
 By using morphological features as the vector representation,
 the output is paradigm tables.
 
-<img src="{{ site.baseurl }}/img/projects/morph_to_paratab.jpg" alt="morphology_to_paradigm">
+<!-- <img src="{{ site.baseurl }}/img/projects/morph_to_paratab.jpg" alt="morphology_to_paradigm"> -->
 
 #### User-defined features → new type of grids
 It is possible to use your own features.
@@ -31,7 +31,7 @@ For example, we can combine:
 - the number of occurrences of all the characters
 - morphological features
 
-<img src="{{ site.baseurl }}/img/projects/form+morph.jpg" alt="form_morph_to_regular">
+<!-- <img src="{{ site.baseurl }}/img/projects/form+morph.jpg" alt="form_morph_to_regular"> -->
 
 #### Future work: word embeddings → semantical analogical grids
 The limitation of this library is that the value of the vector representation is integer.
@@ -39,7 +39,7 @@ The future work of this library is to be able to accept floating numbers.
 Thus,
 we can use word embeddings to construct semantical analogical grids.
 
-<img src="{{ site.baseurl }}/img/projects/semantic_grid.jpg" alt="embeddings_to_semantic_grid">
+<!-- <img src="{{ site.baseurl }}/img/projects/semantic_grid.jpg" alt="embeddings_to_semantic_grid"> -->
 
 ### Code
 GitHub repository: <https://github.com/famrashel/nlg.git>
