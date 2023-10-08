@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Indonesian part-of-speech (POS) annotated corpus
-description: Corpus of text documents that contain sentences in Indonesian manually annotated by humans.
+description: Corpus of text documents that contain manually annotated sentences in Indonesian.
 ---
 
-Corpus of text documents that contain sentences in Indonesian manually annotated by humans.
+Corpus of text documents that contain manually annotated sentences in Indonesian.
 
 Github repository: <https://github.com/famrashel/idn-tagged-corpus.git>
 
