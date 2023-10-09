@@ -49,7 +49,7 @@ The future work of this library is to be able to accept floating numbers.
 Thus,
 we can use word embeddings to construct semantical analogical grids.
 
-<img src="{{ site.baseurl }}/img/projects/semantic_grid.png" alt="embeddings_to_semantic_grid">
+<img style="text-align: center;" src="{{ site.baseurl }}/img/projects/semantic_grid.png" alt="embeddings_to_semantic_grid">
 <span class="caption text-muted">
 	Using word embeddings as input to construct semantical analogical grids
 </span>
