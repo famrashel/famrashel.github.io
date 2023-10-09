@@ -16,7 +16,7 @@ The main purpose of this library is to construct analogical grids from a given s
 Each word form is represented as a vector with
 the number of occurrences of all the characters in the alphabet.
 
-![Word forms to analogical grids](/famrashel.github.io/img/projects/word_to_grid.png)
+![Word forms to analogical grids]({{site.url}}/img/projects/word_to_grid.png)
 
 <img src="{{ site.baseurl }}/img/projects/word_to_grid.png" alt="word_forms_to_nlggrids">
 <span class="caption text-muted">
