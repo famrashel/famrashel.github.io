@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Post"
+description: "What is in my mind"
+header-img: "img/home-bg.jpg"
+---
+
+{% for post in site.posts %}
+<div class="post-preview">
+    <h3 class="post-subtitle"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="post-meta">{{ post.description }}</p>
+</div>
+<hr>
+{% endfor %}
